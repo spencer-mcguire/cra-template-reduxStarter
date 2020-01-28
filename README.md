@@ -1,6 +1,6 @@
 # cra-template-reduxStarter
 
-# Welcome to My Custom Template featuring Redux
+# Welcome to My Custom Template featuring Redux and Chakra Ui
 
 ## How To Install
 
@@ -37,7 +37,7 @@ Just like regular create-react-app but so much more. This template includes:
 - redux-thunk
 - redux dev tools
 - styled-components
-- Chakra UI
+- Chakra Ui
 - axiosWithAuth
 - PrivateRouter component
 
@@ -48,11 +48,13 @@ Reducer and action folders are inside a store folder so they are in the same spo
 ```
 | src |
 | --- | components
-| --- | *store* |
+| --- | *state* |
 | --- | ------- |actions*
-| --- | --- | reducers*
+| --- | ------- |reducers*
+| --- | ------- |types*
 | App.js
 | index.js
 ```
 
-Routes are set in App.js and all components for routes are built in components folder.
+App.js is ready for Routes and all components for routes are to be built in the components folder.
+I have included axiosWithAuth as well as a PrivateRoute component to complete most of the boilerplate.
