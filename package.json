@@ -1,0 +1,19 @@
+{
+  "name": "cra-template-reduxstarter",
+  "version": "1.0.0",
+  "description": "Basic application containing redux and dev tools along with Chakra",
+  "main": "template.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencer-mcguire/cra-template-reduxStarter.git"
+  },
+  "author": "Spencer McGuire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencer-mcguire/cra-template-reduxStarter/issues"
+  },
+  "homepage": "https://github.com/spencer-mcguire/cra-template-reduxStarter#readme"
+}
