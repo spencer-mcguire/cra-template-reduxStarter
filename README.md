@@ -1,32 +1,28 @@
-# cra-template-reduxStarter
-
 # Welcome to My Custom Template featuring Redux and Chakra Ui
 
 ## How To Install
 
 ### yarn
 
-`yarn create react-app <app-name> --template reduxStarter`
+`yarn create react-app <app-name> --template reduxstarter`
 
 ### npm
 
-`npm init react-app <app-name> --template reduxStarter`
+`npm init react-app <app-name> --template reduxstarter`
 
 ### npx
 
-`npx create-react-app <app-name> --template reduxStarter`
+`npx create-react-app <app-name> --template reduxstarter`
 
 ### global
 
 > If create-react-app is installed globally on your computer you can use this command:
 
-`create-react -app <app-name> --template reduxStarter`
+`create-react -app <app-name> --template reduxstarter`
 
-## What makes it extra?
+## What is included?
 
-Bushido plus template comes with a placeholder private route / auth configuration.
-
-Just like regular create-react-app but so much more. This template includes:
+This template includes:
 
 - axios
 - react-redux
@@ -41,9 +37,9 @@ Just like regular create-react-app but so much more. This template includes:
 - axiosWithAuth
 - PrivateRouter component
 
-Redux boilerplate is set up with combine reducers and has a simple counter reducer used in one of the routes that use's react-redux's beautiful hooks to access actions and state from reducer's.
+Redux boilerplate is set up but is blank for you to populate as you wish.
 
-Reducer and action folders are inside a store folder so they are in the same spot.
+Reducers, Actions, and Types folders are inside a STATE folder.
 
 ```
 | src |
@@ -56,5 +52,5 @@ Reducer and action folders are inside a store folder so they are in the same spo
 | index.js
 ```
 
-App.js is ready for Routes and all components for routes are to be built in the components folder.
+App.js is ready for Routes and all components for said Routes are to be built in the components folder.
 I have included axiosWithAuth as well as a PrivateRoute component to complete most of the boilerplate.
