@@ -1,6 +1,6 @@
 {
   "name": "cra-template-reduxstarter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic application containing redux and dev tools along with Chakra",
   "main": "template.json",
   "scripts": {
