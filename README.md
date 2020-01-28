@@ -1,4 +1,4 @@
-# Welcome to Redux Template featuring Chakra Ui
+# Welcome to my Redux Template featuring Chakra Ui
 
 ## How To Install
 
